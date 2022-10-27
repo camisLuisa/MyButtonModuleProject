@@ -1,0 +1,38 @@
+## User settings and OS generated files
+xcuserdata/
+.DS_Store
+.DS_Store?
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Pods
+Pods/
+Sample/Pods/
+
+## Fastlane
+fastlane/test_output/
+fastlane/report.xml
+
+## Jazzy
+docs/docsets/
+
+## Enviroment Variables
+scripts/export_values.sh
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+### Projects ###
+*.xcodeproj
+*.xcworkspace
+
+### Tuist derived files ###
+graph.dot
+Derived/
