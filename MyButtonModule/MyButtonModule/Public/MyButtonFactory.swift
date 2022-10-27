@@ -6,7 +6,18 @@
 //
 
 import Foundation
+import UIKit
 
 class MyButtonFactory {
+    let color: String
     
+    init(color: String) {
+        self.color = color
+    }
+    
+    func create() -> UIView {
+        let myButtonView = UIView()
+        
+        return myButtonView
+    }
 }
