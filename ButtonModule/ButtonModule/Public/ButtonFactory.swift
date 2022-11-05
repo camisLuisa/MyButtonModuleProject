@@ -1,22 +1,22 @@
 //
-//  MyButtonFactory.swift
-//  MyButtonModule
+//  ButtonFactory.swift
+//  ButtonModule
 //
-//  Created by Camila Luísa Farias on 27/10/22.
+//  Created by Camila Luísa Farias on 04/11/22.
 //
 
 import Foundation
 import UIKit
 
 class MyButtonFactory {
-    let color: String
+    let color: UIColor
     
-    init(color: String) {
+    init(color: UIColor) {
         self.color = color
     }
     
     func create() -> UIView {
-        let myButtonView = UIView()
+        let myButtonView = MyButtonView()
         
         return myButtonView
     }

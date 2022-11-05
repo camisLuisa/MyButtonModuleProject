@@ -1,14 +1,14 @@
 //
-//  MyButtonModuleTests.swift
-//  MyButtonModuleTests
+//  ButtonModuleTests.swift
+//  ButtonModuleTests
 //
-//  Created by Camila Luísa Farias on 21/10/22.
+//  Created by Camila Luísa Farias on 04/11/22.
 //
 
 import XCTest
-@testable import MyButtonModule
+@testable import ButtonModule
 
-class MyButtonModuleTests: XCTestCase {
+class ButtonModuleTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
