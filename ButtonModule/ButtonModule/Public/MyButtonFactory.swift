@@ -8,15 +8,15 @@
 import Foundation
 import UIKit
 
-class MyButtonFactory {
+public class MyButtonFactory {
     let color: UIColor
     
-    init(color: UIColor) {
+    public init(color: UIColor) {
         self.color = color
     }
     
-    func create() -> UIView {
-        let myButtonView = MyButtonView()
+    public func create() -> UIView {
+        let myButtonView = MyButtonView(color: color)
         
         return myButtonView
     }
