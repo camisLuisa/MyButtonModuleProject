@@ -13,13 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .brown
         setupButtonView()
     }
 
 
     func setupButtonView() {
-        button.backgroundColor = .green
         view.addSubview(button)
         
         NSLayoutConstraint.activate([

@@ -10,18 +10,19 @@ import UIKit
 class MyButtonView: UIView {
     
     lazy var button: UIButton = {
-       let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Click", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.isEnabled = true
         return button
     }()
     
     init(color: UIColor) {
         super.init(frame: .zero)
-        backgroundColor = .red
         button.backgroundColor = color
         translatesAutoresizingMaskIntoConstraints = false
         setupView()
+        setupButton()
     }
     
     override init(frame: CGRect) {
